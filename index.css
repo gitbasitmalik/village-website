@@ -1,0 +1,241 @@
+header {
+
+  padding: 20px;
+  text-align: center;
+  transition: all 0.5s ease;
+  height: 400px;
+}
+
+header p
+{  
+  background-color: white;
+
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+h2{
+  color: white;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+#blog-posts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#blog-posts article {
+  width: calc(33.33% - 20px);
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  transition: all 0.5s ease;
+}
+
+#blog-posts article:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 10px 0px;
+}
+
+#blog-posts h2 {
+  font-size: 24px;
+  margin: 0;
+  padding-left: 80px;
+}
+
+#blog-posts p {
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+#blog-posts em {
+  font-size: 14px;
+  color: gray;
+}
+
+#blog-posts img {
+  width: 100%;
+  transition: all 0.5s ease;
+}
+
+.social-media a {
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;  
+  border-radius: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 42px;
+  color: white;
+  text-align: center;
+}
+#main-text
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 60px;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+}
+#image-box {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+#image-box img {
+  width: 40%;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+
+
+.map {
+  width: 100%;
+  height: auto;
+  transition: all 0.5s ease;
+  border: 1px whi solid;
+  border-radius: 10px;
+}
+
+
+#blog-posts {
+  background-color: #E6E6E6;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-shadow: 1px 1px 1px #CCC;
+  margin-top: 0;
+  
+}
+
+i {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  padding: 10px;
+}
+section {
+  background-color: rgb(229, 216, 216);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section h1 {
+
+  border: 1px solid black;
+  color: white;
+  border-radius: 50px;
+  background-color: rgb(0, 0, 0);
+}
+video
+{
+  /* border: 2px solid black; */
+  width: 500px;
+  height: 280px;
+  
+}
+#waterfall
+{
+  width: 250px;
+  height: 300px;
+}
+
+@media (max-width: 767px) 
+{
+  #blog-posts article {
+    width: 100%;
+    height: auto;
+    
+  }
+  #blog-posts h2 {
+    font-size: 20px;
+    padding-left: 0;
+  }
+
+  #blog-posts img {
+    width: 100%;
+    height: auto;
+  }
+
+  #image-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+  #image-box img 
+  {
+    width: 100%;
+    
+  }
+
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+  header
+  {
+    width: auto;
+    height: auto;
+  }
+  header p
+  {
+    color: black;
+    background-color: white;
+  }
+  video{
+    width: 100%;
+    height: auto;
+    
+  }
+  #waterfall
+{
+  width: 100%;
+}
+  #main-text
+  {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 0px;
+  }
+  h2 
+  {
+    color: #333;
+    font-size: larger;
+  }
+}
+
